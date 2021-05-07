@@ -121,7 +121,7 @@ class JournalEntry extends HTMLElement {
       // CODE GOES HERE vvv
 
         entryAudio = document.createElement('audio');
-        entryImage.className = 'entry-audio';
+        entryAudio.className = 'entry-audio';
         entryAudio.setAttribute('src', entry.audio);
         entryAudio.controls = true;
 
